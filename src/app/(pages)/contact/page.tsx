@@ -10,7 +10,7 @@ export default async function ContactPage() {
     {
       name: t('email.title'),
       description: t('email.description'),
-      href: 'mailto:polfarreny@gmail.com',
+      href: 'mailto:contact@polfarrenycapdevila.com',
       icon: <SiGmail className="w-8 h-8" />,
       color: 'bg-red-500',
       buttonText: t('email.button')
