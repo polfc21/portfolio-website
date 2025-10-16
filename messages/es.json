@@ -1,0 +1,204 @@
+{
+    "Navigation": {
+      "home": "Inicio",
+      "projects": "Proyectos",
+      "contact": "Contacto",
+      "education": "Educación"
+    },
+    "HomePage": {
+        "title": "Pol Farreny Capdevila",
+        "description": "Ingeniero de Software especializado en desarrollo end to end con experiencia en la Especificación, Análisis, Diseño, Implementación y Pruebas de aplicaciones de Software.",
+        "status": "Ingeniero de Software en Travelport",
+        "personalProject": {
+            "title": "Proyecto Personal: Aplicación de Seguimiento de Fitness",
+            "description": "Desarrollando una aplicación de fitness integral para entrenadores personales y usuarios para hacer un seguimiento de los entrenamientos, ejercicios y rutinas de entrenamiento."
+        },
+        "specialtiesTitle": "Tecnologías y Herramientas",
+        "featuredProjects": {
+          "title": "Experiencia Profesional",
+          "subtitle": "Destacados de mi trayectoria profesional",
+          "viewAllButton": "Ver Todos los Proyectos",
+          "travelport": {
+            "company": "Travelport",
+            "position": "Software Development Engineer II",
+            "period": "2024 - Actualidad",
+            "description": "Desarrollador Java Backend trabajando con Spring Boot, microservicios y tecnologías cloud en la industria de viajes."
+          },
+          "gymbo": {
+            "company": "Gymbo",
+            "position": "Ingeniero de Software",
+            "period": "2022 - Actualidad",
+            "description": "Desarrollo full-stack de aplicación fitness con React, TypeScript y Spring Boot para seguimiento de entrenamientos."
+          },
+          "nnergix": {
+            "company": "NNERGIX",
+            "position": "Java Backend Developer",
+            "period": "2023 - 2024",
+            "description": "Desarrollo de APIs REST usando Java, Spring Boot y servicios AWS para soluciones de gestión energética."
+          }
+        },
+        "nav": {
+            "projects": "Ver Mi Trabajo",
+            "contact": "Contacto"
+        }
+    },
+  "ProjectsPage": {
+    "title": "Experiencia Profesional",
+    "subtitle": "Una visión completa de mi trayectoria profesional y los proyectos en los que he contribuido",
+    "tasksTitle": "Responsabilidades y Logros Clave",
+    "technologiesTitle": "Tecnologías Utilizadas",
+    "backToHome": "Volver al Inicio",
+    "travelport": {
+      "company": "Travelport",
+      "position": "Ingeniero de Software",
+      "period": "Enero 2024 - Presente",
+      "description": "Trabajando como Java Backend Developer utilizando diversas tecnologías de desarrollo web incluyendo Java, bases de datos relacionales (MySQL, PostgreSQL), bases de datos no relacionales (MongoDB), framework Spring Boot, Hibernate, Spring Security, GitHub, GitLab y Jenkins.",
+      "tasks": [
+        "Desarrollo y mantenimiento de servicios backend usando Java y Spring Boot",
+        "Trabajo con bases de datos relacionales (MySQL, PostgreSQL) y no relacionales (MongoDB)",
+        "Implementación de características de seguridad usando Spring Security",
+        "Colaboración con equipos usando GitHub y GitLab para control de versiones",
+        "Utilización de Jenkins para integración y despliegue continuo",
+        "Participación en metodologías ágiles de desarrollo"
+      ]
+    },
+    "gymbo": {
+      "company": "Gymbo",
+      "position": "Ingeniero de Software",
+      "period": "Diciembre 2022 - Presente",
+      "description": "Proyecto personal de aplicación fitness donde aplico habilidades tanto de Java Backend Developer como Frontend Developer (con React.js). Gestionando requisitos del proyecto e implementación actuando como cliente y desarrollador.",
+      "tasks": [
+        "Desarrollo inicial del proyecto, creando necesidades y casos de uso de la aplicación",
+        "Desarrollo iterativo e incremental del producto mediante sprints",
+        "Desarrollo de los casos de uso del proyecto",
+        "Creación de diagramas UML para las fases de análisis y diseño",
+        "Implementación del backend con Java y Spring guiado por casos de uso",
+        "Implementación del frontend con React guiado por casos de uso",
+        "Testing de la implementación con JUnit y Hamcrest",
+        "Uso de GitHub Actions para seguimiento de tareas y tickets del proyecto",
+        "Uso de SonarQube para generación de métricas de código estático",
+        "Seguridad de la aplicación con Spring Security y tokens JWT"
+      ]
+    },
+    "nnergix": {
+      "company": "NNERGIX",
+      "position": "Java Backend Developer",
+      "period": "Febrero 2023 - Enero 2024",
+      "description": "Asignado a un proyecto basado en metodologías ágiles, utilizando Asana como gestor de historias de usuario en cada sprint. Desarrollo de APIs REST en el backend utilizando Java y el framework Spring Boot.",
+      "tasks": [
+        "Desarrollo de APIs REST usando Java y Spring Boot",
+        "Desarrollo de funcionalidades utilizando buckets de Amazon Web Service (AWS)",
+        "Generación de PDF a partir de código usando librerías externas",
+        "Desarrollo de funcionalidades usando bases de datos NoSQL como DynamoDB y Redis",
+        "Mantenimiento de bases de datos (PostgreSQL) y gestión de repositorios con JPA e Hibernate",
+        "Uso de repositorios Bitbucket y GitHub para mantenimiento del código"
+      ]
+    },
+    "cleverpy": {
+      "company": "Cleverpy Machine Learning",
+      "position": "Java Backend Developer",
+      "period": "Marzo 2022 - Febrero 2023",
+      "description": "Posición remota asignada a un proyecto basado en metodologías ágiles usando JIRA para gestión de historias de usuario. Desarrollo de APIs REST usando Java y Spring Boot framework con integración de sistemas geoespaciales.",
+      "tasks": [
+        "Desarrollo de APIs REST usando Java y Spring Boot",
+        "Desarrollo de funcionalidades usando librerías geoespaciales como PostGIS (GIS) y GeoJson",
+        "Desarrollo de funcionalidades usando librerías externas para formatos CSV y Excel",
+        "Testing unitario y de integración con JUnit y Hamcrest",
+        "Mantenimiento de bases de datos (PostgreSQL) y gestión de repositorios con JPA e Hibernate",
+        "Uso de repositorios GitLab y GitHub para mantenimiento del código",
+        "Uso de herramientas de despliegue como Jenkins para integración y actualizaciones de código",
+        "Trabajo con datos geoespaciales y sistemas de procesamiento de archivos"
+      ]
+    }
+  },
+  "ContactPage": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Conectemos y hablemos sobre cómo podemos trabajar juntos",
+    "email": {
+      "title": "Email",
+      "description": "Envíame un correo electrónico y me pondré en contacto contigo lo antes posible",
+      "button": "Enviar Email"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Conéctate conmigo profesionalmente y ve mis últimas actualizaciones",
+      "button": "Conectar"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Echa un vistazo a mis proyectos y contribuciones al código abierto",
+      "button": "Ver Perfil"
+    }
+  },
+    "EducationPage": {
+    "title": "Educación y Estudios",
+    "subtitle": "Mi viaje de aprendizaje en tecnología y más allá",
+    "timelineTitle": "Línea Temporal Educativa",
+    "detailsTitle": "Visión Detallada",
+    "bootcamp": {
+      "title": "Bootcamp BackEnd Java & Spring",
+      "institution": "IT Academy - Barcelona Activa",
+      "period": "Jun 2021 - Mar 2022",
+      "location": "Barcelona",
+      "description": "Bootcamp intensivo de 9 meses enfocado en desarrollo Java empresarial y prácticas modernas de ingeniería de software.",
+      "subjects": [
+        "Programación Java",
+        "Spring Framework",
+        "APIs REST",
+        "PostgreSQL",
+        "Testing Unitario",
+        "Control de Versiones Git"
+      ],
+      "skills": [
+        "Desarrollo Backend",
+        "Diseño de Bases de Datos",
+        "Desarrollo de APIs",
+        "Arquitectura de Software"
+      ]
+    },
+    "cfgs": {
+      "title": "Desarrollo de Aplicaciones Multiplataforma",
+      "institution": "Institut Obert de Catalunya",
+      "period": "Mar 2020 - Jun 2022",
+      "location": "Remoto",
+      "description": "Formación profesional de grado superior en desarrollo de software cubriendo desarrollo web full-stack y aplicaciones móviles.",
+      "subjects": [
+        "Fundamentos de Programación",
+        "Sistemas de Bases de Datos",
+        "Desarrollo Web",
+        "Desarrollo Móvil",
+        "Ingeniería de Software"
+      ],
+      "skills": [
+        "Desarrollo Full-Stack",
+        "Resolución de Problemas",
+        "Diseño de Software",
+        "Metodología Ágil"
+      ]
+    },
+    "sociology": {
+      "title": "Grado en Sociología",
+      "institution": "Universitat de Barcelona | Università di Bologna",
+      "period": "2015 - 2019",
+      "location": "Barcelona",
+      "description": "Estudio comprehensivo del comportamiento social, metodologías de investigación y técnicas de análisis de datos.",
+      "subjects": [
+        "Métodos de Investigación Social",
+        "Análisis Estadístico",
+        "Interpretación de Datos",
+        "Pensamiento Crítico"
+      ],
+      "skills": [
+        "Metodología de Investigación",
+        "Análisis de Datos",
+        "Análisis Crítico"
+      ]
+    }
+  },
+    "Footer": {
+    "builtWith": "Desarrollado con Next.js & Tailwind CSS",
+    "projectInMind": "¿Tienes un proyecto en mente?",
+    "letsTalk": "Hablemos",
+    "allRightsReserved": "Todos los derechos reservados"
+  }
+}
