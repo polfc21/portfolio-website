@@ -17,7 +17,7 @@ export default async function ContactPage({ params }: Props) {
     {
       name: t('email.title'),
       description: t('email.description'),
-      href: 'mailto:contact@polfarrenycapdevila.com',
+      href: 'mailto:polfarreny@gmail.com',
       icon: <SiGmail className="w-8 h-8" />,
       color: 'bg-red-500',
       buttonText: t('email.button')
