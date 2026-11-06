@@ -29,8 +29,26 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy on GitHub Pages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is exported as a static site (`output: 'export'`) and deployed to
+GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The site is served from a **project page**, so `basePath` is set to
+`/portfolio-website` during the GitHub Actions build.
+
+One-time setup:
+
+1. Make the repository public (Pages on the free plan requires a public repo).
+2. Go to **Settings → Pages** and set **Source** to **GitHub Actions**.
+3. Push to `main`.
+
+The site will be available at `https://polfc21.github.io/portfolio-website/`.
+
+Notes:
+
+- Locales live in the URL: `/ca/`, `/en/`, `/es/`. `/` redirects to `/ca/`.
+- For local development use `http://localhost:3000/ca` (or `/en`, `/es`).
+- The app must stay fully static: no API routes, middleware, server actions,
+  `cookies()`, or `headers()`.
+- If you rename the repository, update `repo` in `next.config.ts`.

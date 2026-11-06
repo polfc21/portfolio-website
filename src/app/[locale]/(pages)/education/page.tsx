@@ -1,10 +1,17 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import NavigationBar from '@/app/components/layout/NavigationBar';
 import Footer from '@/app/components/layout/Footer';
 import EducationTimeline from '@/app/components/education/EducationTimeline';
 import EducationCards from '@/app/components/education/EducationCards';
 
-export default async function EducationPage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function EducationPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   const t = await getTranslations('EducationPage');
 
   return (

@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 export default function Footer() {
   const t = useTranslations('Footer');
@@ -27,12 +28,12 @@ export default function Footer() {
             <p className="text-gray-600 dark:text-gray-400 text-sm text-center md:text-right">
               {t('projectInMind')}
             </p>
-            <a 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-sm font-medium transition-colors"
             >
               {t('letsTalk')} →
-            </a>
+            </Link>
           </div>
         </div>
       </div>

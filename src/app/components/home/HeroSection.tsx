@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
+import { asset } from '@/app/lib/assets';
 
 export default async function HeroSection() {
   const t = await getTranslations('HomePage');
@@ -11,7 +12,7 @@ export default async function HeroSection() {
         <div className="w-40 h-40 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1.5 border-4 border-white shadow-lg transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl">
           <div className="w-full h-full rounded-full overflow-hidden">
             <Image 
-              src="/images/profile.png" // Update this path to your actual image
+              src={asset('/images/profile.png')} // Update this path to your actual image
               alt="Pol Farreny Capdevila - Software Engineer"
               width={160}
               height={160}

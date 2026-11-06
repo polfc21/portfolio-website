@@ -1,14 +1,15 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from '@/i18n/navigation';
 import Image from 'next/image';
+import { asset } from '@/app/lib/assets';
 
 export default function LocaleSwitcher() {
+  const pathname = usePathname();
   const router = useRouter();
 
   const switchLocale = (locale: string) => {
-    document.cookie = `locale=${locale}; path=/; max-age=31536000; sameSite=lax`;
-    router.refresh();
+    router.replace(pathname, { locale });
   };
 
   return (
@@ -18,9 +19,9 @@ export default function LocaleSwitcher() {
         className="p-2 rounded-md hover:bg-gray-100/80 dark:hover:bg-gray-700/80 transition-colors flex items-center justify-center"
         title="Català"
       >
-        <Image 
-          src="/icons/flags/catalunya.png" 
-          alt="Català" 
+        <Image
+          src={asset('/icons/flags/catalunya.png')}
+          alt="Català"
           width={20}
           height={20}
           className="w-5 h-5 object-cover rounded-sm"
@@ -31,9 +32,9 @@ export default function LocaleSwitcher() {
         className="p-2 rounded-md hover:bg-gray-100/80 dark:hover:bg-gray-700/80 transition-colors flex items-center justify-center"
         title="English"
       >
-        <Image 
-          src="/icons/flags/united-kingdom.png" 
-          alt="English" 
+        <Image
+          src={asset('/icons/flags/united-kingdom.png')}
+          alt="English"
           width={20}
           height={20}
           className="w-5 h-5 object-cover rounded-sm"
@@ -44,9 +45,9 @@ export default function LocaleSwitcher() {
         className="p-2 rounded-md hover:bg-gray-100/80 dark:hover:bg-gray-700/80 transition-colors flex items-center justify-center"
         title="Español"
       >
-        <Image 
-          src="/icons/flags/spain.png" 
-          alt="Español" 
+        <Image
+          src={asset('/icons/flags/spain.png')}
+          alt="Español"
           width={20}
           height={20}
           className="w-5 h-5 object-cover rounded-sm"

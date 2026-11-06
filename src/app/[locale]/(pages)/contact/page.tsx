@@ -1,9 +1,16 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import NavigationBar from '@/app/components/layout/NavigationBar';
 import Footer from '@/app/components/layout/Footer';
 import { SiGithub, SiLinkedin, SiGmail } from 'react-icons/si';
 
-export default async function ContactPage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function ContactPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   const t = await getTranslations('ContactPage');
 
   const contactMethods = [
